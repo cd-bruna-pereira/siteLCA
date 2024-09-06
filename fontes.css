@@ -1,0 +1,158 @@
+.sombra {
+  text-shadow: 0.1em 0.1em 0.1em #abb1b2
+}
+
+@font-face{
+  font-family:'Glyphicons Halflings';
+  src:url(../fonts/glyphicons-halflings-regular.eot);
+  src:url(../fonts/glyphicons-halflings-regular.woff2);
+  src:url(../fonts/glyphicons-halflings-regular.woff);
+}
+
+.contato{
+  margin-right:40px;
+  margin-left:  30px;;
+}
+
+.tam-img {
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+
+.tam-img-tropicus {
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+
+.tam-icon {
+  width:48px;
+  height:48px;
+}
+
+.card{
+  background-color:#fafdff;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1); 
+}
+
+.topico{
+  background-color:#fafdff;
+  color:#23393d !important;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1); 
+}
+
+.topico:hover{
+  box-shadow: 0px 0px 20px #abb1b2;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+
+.card:hover{
+  background-color:#fafdff;
+  box-shadow: 0px 0px 20px #abb1b2;
+}
+
+.bt:hover{
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+.img{
+ width:200px;
+ height: 200px;
+}
+
+.titulo{
+  color:#23393d;
+  font-size: 30px;
+}
+
+.cor1{
+  color:#23393d;
+}
+
+.subtitulo{
+  color:#2a6671;
+  font-size: 13px;
+}
+
+
+.nav-link:hover, .nav-link:focus, .navbar-nav .nav-link.active {
+  color: #2a6671 !important;
+  font-weight: bold;
+  font-size: 15;
+}
+
+a {
+  color: #23393d;
+  text-decoration: none;
+  background-color: transparent; }
+  a:hover {
+    text-decoration: none; }
+
+    .img,
+    .user-img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center; }
+
+      .testimony-wrap {
+        display: block;
+        position: relative;
+        padding: 30px 20px;
+        border: 1px solid rgba(0, 0, 0, 0.03);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+        -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+        box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14); }
+        .testimony-wrap .user-img {
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+          position: relative;
+          border: 4px solid #fff; }
+        .testimony-wrap .text {
+          width: calc(100% - 90px);
+          position: relative; }
+          .testimony-wrap .name {
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 0;
+            color: #000; }
+         
+
+
+
+
+  
